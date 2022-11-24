@@ -1,0 +1,49 @@
+Output 1:
+Cost after local search is 361
+Output matrix:
+V Q N Q N H N Q
+_ I _ _ H _ _ I
+R _ N _ _ H H K
+Y _ _ _ _ _ H V
+
+Output 2:
+Best till now:680
+_ K _ _ _ _ Q _ K
+_ K K H _ _ Q _ K
+_ B _ U Q B Q _ B
+_ _ _ _ _ _ S _ K
+_ K _ _ _ _ B _ H
+U B U U U U Q K S
+
+Output 6:
+BEST Cost: 898
+_ _ T G C _ _ _ A
+G G T G C _ _ _ G
+G G T A C A C G G
+C _ T G T A A _ T
+_ _ G _ T _ _ _ A
+G A A T C C A G T
+
+Output 7:
+BEST Cost: 1162
+_ C _ _ A G _ C
+G _ T C A C _ G
+_ _ _ C T _ _ G
+G C T C T G T G
+_ C _ G A C T G
+G C _ G A A _ C
+A C _ C A G _ C
+G _ T _ A _ _ C
+
+Output 8:
+BEST Cost: 1261
+G C _ G T A _ G
+G G _ C _ A G G
+A C _ G A A C G
+G C A C _ T _ T
+_ T A G G A C T
+_ T _ C _ T T C
+G C A G _ T _ C
+A C T G T A _ C
+_ C A C _ T _ C
+A _ A _ _ A T T
