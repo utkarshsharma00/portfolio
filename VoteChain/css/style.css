@@ -1,0 +1,144 @@
+/* Radio Button CSS starts */
+/*$primary-color: #fff;
+$accent-color: #009688;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(to right bottom, #1b1b1e, #333);
+}
+
+.candidates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.list {
+    flex: 0 20rem;
+}
+
+.list__item {
+    position: relative;
+    &:hover .label {
+        color: #009688;
+        &::before {
+            border: 0.5rem solid #009688;
+            margin-right: 2rem;
+        }
+    }
+}
+
+.radio-btn {
+    display: none;
+    &:checked + .label {
+        color: #009688;
+        &::before {
+            margin-right: 2rem;
+            border: 0.5rem solid #009688;
+            background: #fff;
+        }
+    }
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.label::before {
+    display: block;
+    height: 1.125rem;
+    width: 1.125rem;
+    margin-right: 0.625rem;
+    content: "";
+    border: 0.5rem solid #fff;
+    border-radius: 50%;
+    transition: all 0.25s linear;
+}*/
+
+/* Radio Button CSS ends */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #636363;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    color: #272727;
+    margin: 0.15em 0.5em;
+    padding: 0;
+}
+p {
+    font-family: 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0.15em 0.3em;
+}
+
+#voting_area {
+    margin: 0.15em 1.4em;
+}
+
+.candidate {
+    margin: 0.2em 0.2em;
+    padding: 0.4em 0.2em;
+    /*border: 1px #000;*/
+}
+
+#tagline {
+    font-style: italic;
+    padding: 1em;
+}
+
+input[type="radio"] {
+    font-size: 15px;
+}
+
+#text-center {
+    text-align: center;
+}
+
+#candi_list {
+    display: inline-block;
+}
+button {
+    font-family: 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
+    border-radius: 2.7em;
+    max-width: 280px;
+    width: 7em;
+    height: 2.7em;
+    margin: auto;
+    padding: auto 1.5em;
+    background-color: #f98009;
+    border: 1px solid #363636;
+    transition: all 0.2s ease;
+}
+button:active {
+    background-color: #f98009;
+    box-shadow: inset 0 0 7px 0px #363636;
+}
+button:hover {
+    border: 1px solid #f98009;
+    background-color: #f98009;
+}
+button:disabled {
+    background-color: #636363;
+    color: #262626;
+}
